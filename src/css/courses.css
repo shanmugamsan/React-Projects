@@ -1,0 +1,152 @@
+
+/* Courses */
+
+.courses{
+    padding:20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+}
+
+.courses h2{
+    color: #2563eb ;
+}
+
+.course-boxs{
+    display:flex;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    padding:20px;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+    flex-wrap: wrap;
+   
+}
+.course-box{
+    border:none;
+    max-height: 300px;
+    margin:20px 0;
+    padding:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis:20%;
+    flex-direction:column;
+    border-radius: 15px;
+    background-color: #fff;
+    transition:transform 300ms ease;
+}
+
+.course-box img{
+    width:200px;
+    height:150px;
+}
+
+.courseTitleBox {
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+
+.courseTitleBox button{
+    padding:10px 15px;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    color: #d8f0f0;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    background:#2e6ef8;
+}
+
+.courseTitleBox button:hover{
+     background: #fff;
+     color: #2e6ef8;
+     border: 2px solid #2e6ef8;
+}
+
+
+.course-box:hover{
+    transform: translateY(-5%);
+    box-shadow: 0px 0px 10px #2e6ef8;
+}
+
+/* Course page  */
+
+.lesson-page{
+    padding:10px;
+    background-color: rgba(255, 255, 255, 0.81);
+    border-radius: 10px;
+    gap:10px;
+    display: grid;
+    grid-template-columns: 1fr 4fr ;
+
+}
+
+.sideNav{
+    padding:15px 8px; 
+    min-width:170px;
+    border-radius: 7px;
+    height:100vh;
+    position:sticky;
+    top:0%;
+    background-color: rgba(203, 232, 255, 0.832);
+
+}
+
+.sideNav h2{
+    color: #2e6ef8;
+    text-align:center;
+    padding-bottom:10px;
+}
+
+.sideNav ul {
+    list-style:none;
+}
+
+.sideNav ul li{
+    padding:3px;
+}
+
+.sideNav ul li:hover{
+    border: 1px solid rgb(227, 224, 224);
+    background-color: rgb(209, 204, 204);
+    color:#fff;
+    border-radius: 3px;
+}
+
+.sideNav ul li a{
+    text-decoration: none;
+    color: #000;
+    padding:10px;
+    font-size: 16px;
+}
+
+/* Main lesson  */
+
+.main-lesson{
+    padding:10px;
+    border-radius: 8px;
+    background-color: rgba(203, 232, 255, 0.832);
+}
+
+.title-page{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    padding:20px;
+
+}
+
+.title-page .title{
+    color:#2e6ef8;
+    text-decoration:underline;
+
+}
+
+.topiclesson{
+    padding:10px 20px
+}

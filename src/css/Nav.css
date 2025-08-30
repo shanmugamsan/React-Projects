@@ -1,0 +1,125 @@
+
+/* Navbar styles */
+nav{
+    position:sticky;
+    top:0;
+    z-index:999;
+}
+
+.nav-section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    color: #fbffff;
+    background:#2e6ef8;
+    overflow:hidden;
+    border-radius: 10px;
+}
+
+.form label {
+    display: none;
+}
+
+.form input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+.form input:focus{
+    box-shadow: 0px 0px 10px #2e6ef8;
+}
+
+.form-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-logo {
+    font-size: 27px ;
+    color:#2e6ef8 ;
+    cursor: pointer ;
+}
+
+/* Nav links */
+
+.Nav-links {
+    display: Flex;
+    align-items: center;
+    margin-right: 100px;
+    justify-content: flex-start;
+
+}
+
+.Nav-links ul {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav-links ul li {
+    list-style: none;
+    text-decoration-line: none;
+}
+
+.Nav-links ul li a {
+    text-decoration: none;
+    color:#fff ;
+    font-size: large;
+    font-weight: 600;
+}
+
+.Nav-links ul li a :focus{
+    outline:none;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn button {
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    color:#2e6ef8;
+    cursor: pointer;
+    font-weight: 600;
+    background: #fff;
+    border-radius: 14px;
+    font-size: 16px;
+}
+
+.Nav-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+    font-weight: 600;
+    position: relative;  /* needed for the pseudo-element */
+    transition: color 0.3s ease;
+}
+.Nav-links ul li a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    background-color: #fff;
+    transition: width 0.3s ease;
+}
+
+.Nav-links ul li a:hover {
+    color: #162d3e; /* optional: change text color on hover */
+}
+
+.Nav-links ul li a:hover::after {
+    width: 100%;  /* animate underline from 0% to 100% */
+}

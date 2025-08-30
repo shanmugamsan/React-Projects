@@ -1,0 +1,131 @@
+
+.aboutBanner{
+    padding:2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 70vh;
+    overflow: hidden;
+    gap:3rem;
+
+}
+
+.about-Content{
+    max-width:600px;
+    text-align: center;
+}
+
+.about-Content h2{
+    font-size: 3rem;
+    font-weight:bold;
+    color:#1e242c
+}
+
+.head-span{color:#2563eb;}
+
+
+
+/* About  */
+
+.section-about{
+    padding:2rem;
+}
+
+.section-about h3{
+    color:#2563eb;
+    font-size: 1.5rem;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:50vh;
+    gap:3rem;
+    overflow: hidden;
+
+}
+.about-Content p{
+    font-size: 1rem;
+    color:#475677;
+    margin-top: 1rem;
+}
+
+
+.about-us{
+    max-width:600px;
+    text-align: center;
+}
+
+.about-us h2{
+    font-size: 2rem;
+    font-weight:bold;
+    color:#181d23;
+    padding:1rem 0;
+}
+.about-us p{
+    font-size: 1rem;
+    color:#475677;
+    margin-top: 1rem;
+}
+.about-us .highlight{
+      color:#2563eb;
+}
+
+.btn{
+    margin-top: 2rem;
+}
+
+
+.about-Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    overflow: hidden;
+    padding:2rem;
+}
+
+.about-card-head{
+    text-align: center;
+}
+
+.about-card-head h2{
+    color:#2563eb;
+    font-size: 3.2rem;
+}
+
+.about-card-head p{
+    color:#475677;
+    padding:1rem 0;
+}
+
+.about-cards{
+    display:flex;
+    gap:2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-card{
+    width:200px;
+    height: 350px;
+    max-height: 350px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    border-radius: 9px;
+    padding:20px;
+    border:1px solid;
+}
+
+.about-card .card-num{
+    background-color:#2563eb;
+    display: inline-block;
+    width: 50px;
+    border-radius: 50%;
+    padding:10px;
+    color:#fff;
+    text-align: center;
+}
